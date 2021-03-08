@@ -19,22 +19,29 @@ const modals = {
     }
   },
   newProposal: {
-    height: "573px",
+    height: "490px",
     width: "529px",
     borderRadius: 2,
     padding: "16px"
   },
   newProposalWithOther: {
-    height: "716px",
+    height: "610px",
     width: "529px",
     borderRadius: 2,
     padding: "16px"
   },
-  newProposalType2: {
+  newProposalUpdateParameters: {
     width: "529px",
     borderRadius: 2,
     padding: "16px"
   },
+  grid: {
+    margin: '0px 0px 25px 0px',
+    alignItems: "center",
+  },
+  gridItems: {
+    margin: '0px 0px 25px 0px',
+  }
 }
 
 export const CustomSelect = withStyles((theme: Theme) =>
@@ -48,7 +55,7 @@ export const CustomSelect = withStyles((theme: Theme) =>
       position: 'relative',
       backgroundColor: theme.palette.background.paper,
       border: "1px solid #000000",
-      fontSize: "16 !important",
+      fontSize: "16px",
       padding: '10px 26px 10px 12px',
       transition: theme.transitions.create(['border-color', 'box-shadow']),
       '&:focus': {
